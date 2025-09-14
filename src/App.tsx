@@ -1,6 +1,11 @@
+import EventContainer from "./Components/EventContainer"
+
 function App() {
   return (
-    <h1>Yooooo</h1>
+    <div className="component-container flex flex-col items-center gap-5">
+      <EventContainer />
+      <EventContainer />
+    </div>
   )
 }
 
