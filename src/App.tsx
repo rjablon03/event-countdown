@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="component-container flex flex-col items-center">
       <AddEventBtn />
-      <EventContainer />
-      <EventContainer />
+      <EventContainer title="Test" targetDate="2026-12-31T23:59:59"/>
     </div>
   )
 }
